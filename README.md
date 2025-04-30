@@ -11,13 +11,6 @@ This project uses **ResNet-50**, a deep convolutional neural network pretrained 
 - Visualization of training performance
 - Model evaluation and predictions
 
-## Requirements
-
-To run this project, you’ll need Python 3.x and the following Python libraries:
-
-```bash
-pip install tensorflow keras numpy pandas matplotlib opencv-python scikit-learn seaborn
-
 
 ## Classes
 
@@ -80,6 +73,7 @@ The model is evaluated using:
 - Loss (categorical cross-entropy)
 - Validation accuracy/loss plots
 
+
 ## Results
 
 Sample results from training:
@@ -87,3 +81,10 @@ Sample results from training:
 - Test Accuracy: 81.81%
 - Validation Accuracy: 75%
 
+
+## Requirements
+
+To run this project, you’ll need Python 3.x and the following Python libraries:
+
+```bash
+pip install tensorflow keras numpy pandas matplotlib opencv-python scikit-learn seaborn
